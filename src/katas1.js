@@ -1,94 +1,168 @@
-function oneThroughTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result*/
-    
+//////////////////////////////////////////////////
+function oneThroughTwenty() {  
+
+    let meuRetorno = [];
+
+    for(let index = 1; index <= 20; index++){
+      meuRetorno.push(index);
+    }
+
+    return meuRetorno;
 }
 
-//call function oneThroughTwenty
+console.log(oneThroughTwenty())
+
+//////////////////////////////////////////////////
 
 function evensToTwenty() {
+      
+    let meuRetorno = [];
+
+    for(let index = 1; index <= 20; index++){
+      
+      if(index % 2 === 0){
+        meuRetorno.push(index);
+      }
+    }
     
-   /* Your code goes below
-   Write a for or a while loop
-   return the result */
-  
+    return meuRetorno;
 }
 
-//call function evensToTwenty
+console.log(evensToTwenty())
+
+//////////////////////////////////////////////////
 
 function oddsToTwenty() {
+      
+    let meuRetorno = [];
+
+    for(let index = 1; index <= 20; index++){
+      
+      if(index % 2 === 1){
+        meuRetorno.push(index);
+      }
+    }
+
+    return meuRetorno;
     
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-   
 }
 
-//call function oddsToTwenty
+console.log(oddsToTwenty())
+
+//////////////////////////////////////////////////
 
 function multiplesOfFive() {
     
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+    let meuRetorno = [];
+    
+    for(let index = 1; index <= 100; index++){
 
+      if(index % 5 === 0){
+        meuRetorno.push(index);
+      }
+    }
+
+    return meuRetorno;
 }
 
-//call function multiplesOfFive
+console.log(multiplesOfFive())
+
+//////////////////////////////////////////////////
 
 function squareNumbers() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+    let meuRetorno = [];
     
-}
+    for(let index = 1; index <= 10; index++){
+      meuRetorno.push(index * index);
+    }
 
-//call function squareNumbers
+      return meuRetorno;
+}
+ 
+ console.log(squareNumbers())
+
+//////////////////////////////////////////////////
 
 function countingBackwards() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+
+    let meuRetorno = [];
+
+    for(let index = 20; index >= 1; index--){
+      meuRetorno.push(index);
+    }
+
+    return meuRetorno;
 }
 
-//call function countingBackwards
+  console.log(countingBackwards())
+
+//////////////////////////////////////////////////
 
 function evenNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+
+    let meuRetorno = [];
+
+    for(let index = 20; index >= 1; index --){
+
+      if(index % 2 === 0){
+        meuRetorno.push(index);
+      }
+    }
+
+    return meuRetorno;
 }
 
-//call function evenNumbersBackwards
+console.log(evenNumbersBackwards())
+
+//////////////////////////////////////////////////
 
 function oddNumbersBackwards() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-}
+    let meuRetorno = [];
+    
+    for(let index = 20; index >= 1; index--){
 
-//call function oddNumbersBackwards
+      if(index % 2 === 1){
+        meuRetorno.push(index);
+      }
+    }
+
+    return meuRetorno
+ }
+ 
+ console.log(oddNumbersBackwards())
+
+//////////////////////////////////////////////////
 
 function multiplesOfFiveBackwards() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+    let meuRetorno = [];
+
+    for(let index = 100; index >= 1; index--){
+
+      if(index % 5 === 0){
+        meuRetorno.push(index);
+      }
+    }
+
+    return meuRetorno;
 }
 
-//call function multiplesOfFiveBackwards
+console.log(multiplesOfFiveBackwards())
+
+//////////////////////////////////////////////////
 
 function squareNumbersBackwards() {
     
-   /* Your code goes below
-  Write a for or a while loop
-  return the result */
+    let meuRetorno = [];
+    
+    for(let index = 10; index >= 1; index--){
+      meuRetorno.push(index * index)
+    }
+    
+    return meuRetorno;
 }
 
-//call function squareNumbersBackwards
+console.log(squareNumbersBackwards())
+
